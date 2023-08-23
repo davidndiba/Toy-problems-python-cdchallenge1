@@ -11,9 +11,9 @@ def positivity (a, b, c):
     return positive_count == 2
 
 
-print(exactly_two_positive(2, 4, -3))  
-print(exactly_two_positive(-4, 6, 8))  
-print(exactly_two_positive(4, -6, 9))  
-print(exactly_two_positive(-4, 6, 0))  
-print(exactly_two_positive(4, 6, 10))  
-print(exactly_two_positive(-14, -3, -4))  
+print(positivity(2, 4, -3))  
+print(positivity(-4, 6, 8))  
+print(positivity(4, -6, 9))  
+print(positivity(-4, 6, 0))  
+print(positivity(4, 6, 10))  
+print(positivity(-14, -3, -4))  
