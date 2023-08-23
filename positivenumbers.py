@@ -1,4 +1,4 @@
-def exactly_two_positive(a, b, c):
+def positivity (a, b, c):
     positive_count = 0
 
     if a > 0:
